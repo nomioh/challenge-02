@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="The home page of Noyemi Ohanyan, freelance graphic designer and web developer"/>
+    <meta
+      name="keywords"
+      content="portfolio, web developer, graphic design, branding, code, html"
+    />
+    <link rel="stylesheet" href="../Develop/style.css" />
+    <link rel="favicon" type="favicon" href="./assets/images/Logo-favicon.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Noyemi Ohanyan - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>NOMI OHANYAN</h1>
+
+      <div class="header">
+        <!-- navigation -->
+        <nav>
+          <!-- Unordered list element-->
+          <ul>
+            <!-- List item element-->
+            <li>
+              <!-- Anchor element -->
+              <a href="#about-me">About Me</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact-me">Contact Me</a>
+            </li>
+            <li>
+              <a href="./assets/files/noyemiOhanyan-Resume.pdf">Resume</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Navigation-->
+
+    <!-- Hero/banner image-->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>I design and develop.</h2>
+      </div>
+    </section>
+    <!-- End of Hero/image-->
+
+    <!-- START About me Section-->
+    <section id="about-me" class="flex-about">
+      <div class="flex-about-title">
+        <span><h2>About Me</h2></span>
+      </div>
+      <div class="flex-bio">
+        <p>
+          Hello world! My name is Noyemi (Nomi) Ohanyan. I'm a developer and
+          graphic designer based in Toronto, Ontario. <br />
+          I build brands, shape digital products and I'm currently learning how
+          to code. My soul is fueled by good coffee, reading and
+          <a href="https://jingasmission.wixsite.com/rescue" target="_blank"
+            >rescuing dogs</a
+          >.
+        </p>
+      </div>
+    </section>
+    <!-- END of About Me Section -->
+
+    <!-- START of work section  -->
+    <section id="work" class="work">
+      <div class="portfolio">
+        <h2>Work</h2>
+      </div>
+      <div class="flex-projects">
+        <!-- Section for project 1 -->
+        <a
+          href="https://www.borealgateau.com/"
+          target="_blank"
+          class="flextile boreal-project"
+        >
+          <div class="headings">
+            <span>
+              <h3>Brand Identity and Website</h3>
+              <br />
+              <p>Boreal Gateau & Creamery</p>
+            </span>
+          </div>
+        </a>
+
+        <!-- Section for project 2 -->
+        <a href="./assets/files/thesis_book_reducedagain.pdf" target="_blank">
+          <div class="flextile small flex-project-thesis">
+            <div class="headings">
+              <span>
+                <h3>Thesis Process Book</h3>
+                <br />
+                <!-- this break might not look great, review & second guess!!! -->
+                <p>Brand Identity, UI/UX</p>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Section for project 3 -->
+        <a
+          href="https://github.com/nomioh/challenge1/blob/master/Develop/index.html"
+          target="_blank"
+        >
+          <div class="flextile small flex-project-html">
+            <div class="headings">
+              <span>
+                <h3>Code Refactoring</h3>
+                <br />
+                <p>HTML/CSS</p>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Section for project 4 -->
+        <a
+          href="https://github.com/nomioh/challenge1/blob/master/Develop/index.html"
+          target="_blank"
+        >
+          <div class="flextile small flex-project-runbuddy">
+            <div class="headings">
+              <span>
+                <h3>Run Buddy</h3>
+                <br />
+                <p>HTML/CSS</p>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Starts -->
+
+    <footer>
+      <div id="footer-wrapper">
+        <h3>Contact Me</h3>
+        <div id="footer-content">
+          <!-- Contact me begins -->
+          <div id="contact" class="form">
+            <p>Let's get in touch</p>
+            <form>
+              <label for="contact-info">Your name</label>
+              <input type="text" id="contact-info" placeholder="Full name" />
+
+              <lable for="contact-message">Your Message</lable>
+              <textarea
+                id="contact-message"
+                placeholder="Your message here"
+              ></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+
+          <!-- Connect with me section-->
+          <div class="connect">
+            <h2>Get in touch</h2>
+            <div class="icon">
+              <a
+                href="https://linkedin.com/in/noyemiohanyan/"
+                target="_blank"
+                class="fa fa-linkedin"
+              ></a>
+              <br />
+              <a
+                href="https://www.behance.net/nomiohanyan"
+                target="_blank"
+                class="fa fa-behance"
+                aria-hidden="true"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
