@@ -75,7 +75,7 @@ header nav ul li a:hover {
 /* Hero Image Styles*/
 
 .hero {
-  background-image: url(./assets/images/thesis-poster.jpg);
+  background-image: url(./images/thesis-poster.jpg);
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -170,19 +170,19 @@ header nav ul li a:hover {
 
 .boreal-project {
   width: 100%;
-  background-image: url(./assets/images/boreal.jpg);
+  background-image: url(./images/boreal.jpg);
   min-height: 300px;
 }
 
 .flex-project-thesis {
-  background-image: url(./assets/images/layout-thesis.jpg);
+  background-image: url(./images/layout-thesis.jpg);
 }
 .flex-project-html {
-  background-image: url(./assets/images/css-html.jpg);
+  background-image: url(./images/css-html.jpg);
 }
 
 .flex-project-runbuddy {
-  background-image: url(./assets/images/css-html.jpg);
+  background-image: url(./images/css-html.jpg);
 }
 
 .headings {
